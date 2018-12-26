@@ -1,0 +1,16 @@
+{
+ "manifest_version": 2,
+ "name": "MLUrlBlocker",
+ "description": "Reinforcement based learning applied to classify if a give URL is malicious or not.",
+ "version": "1",
+ "author": "yeshsurya",
+"browser_action": {
+   "default_icon": "tab-icon.png",
+   "default_title": "Intelligent URL blocker",
+   "default_popup":"popup.html"
+ },
+"chrome_url_overrides" : {
+  "newtab": "newtab.html"
+},
+ "permissions": ["activeTab"]
+}
